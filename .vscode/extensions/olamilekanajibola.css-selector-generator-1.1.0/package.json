@@ -1,0 +1,77 @@
+{
+	"name": "css-selector-generator",
+	"displayName": "CSS selector generator [CSG]",
+	"publisher": "OlamilekanAjibola",
+	"description": "Generates CSS with all classes and ids of HTML file selected",
+	"version": "1.1.0",
+	"engines": {
+		"vscode": "^1.71.0"
+	},
+	"categories": [
+		"Formatters"
+	],
+	"keywords": [
+		"css",
+		"CSS",
+		"selector",
+		"generator",
+		"Generator",
+		"CSS Selector",
+		"css selector"
+	],
+	"activationEvents": [
+		"onCommand:css-selector-generator.initialize",
+		"onFileSystem:css",
+		"onLanguage:css",
+		"onLanguage:js",
+		"onLanguage:html",
+		"onLanguage:jsp",
+		"onLanguage:py",
+		"onStartupFinished"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kelvin-AJ/cssselectorext.git"
+	},
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "css-selector-generator.generate",
+				"title": "CSS Selector Generator"
+			},
+			{
+				"command": "css-selector-generator.initialize",
+				"title": "CSS Selector Initialize"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.71.0",
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.1.1",
+		"@types/node": "16.x",
+		"eslint": "^8.20.0",
+		"glob": "^8.0.3",
+		"mocha": "^10.0.0",
+		"typescript": "^4.7.4",
+		"@vscode/test-electron": "^2.1.5"
+	},
+	"icon": "img/icon.png",
+	"__metadata": {
+		"id": "52c70664-5b51-4047-b748-94fa36c738f7",
+		"publisherId": "8c6a4e4c-0321-46d0-bcfa-8c3a84b4cb8c",
+		"publisherDisplayName": "Olamilekan Ajibola",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1673347183371,
+		"preRelease": false
+	}
+}
