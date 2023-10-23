@@ -1,1 +1,43 @@
-24:18:12.566790 MainPower Log continuation - Log started 2023-10-16T02:43:01.173747100Z
+31:19:44.617235          Log continuation - Log started 2023-10-18T11:20:04.369093400Z
+31:19:44.634199          Finished saving settings file "C:\Users\admin\.VirtualBox\VirtualBox.xml"
+31:19:44.635726          Saving settings file "C:\Users\admin\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+31:19:44.647477          Finished saving settings file "C:\Users\admin\.VirtualBox\VirtualBox.xml"
+31:19:44.950194          Saving settings file "C:\Users\admin\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+31:19:45.100511          Finished saving settings file "C:\Users\admin\.VirtualBox\VirtualBox.xml"
+31:19:47.385164 dns-monitor HostDnsMonitor: updating information
+31:19:47.385294 dns-monitor HostDnsMonitor: old information
+31:19:47.432911 dns-monitor   server 1: 192.168.43.146
+31:19:47.432950 dns-monitor   no domain set
+31:19:47.432967 dns-monitor   no search string entries
+31:19:47.432980 dns-monitor HostDnsMonitor: new information
+31:19:47.432992 dns-monitor   no server entries
+31:19:47.433004 dns-monitor   no domain set
+31:19:47.433015 dns-monitor   no search string entries
+31:19:47.772631 MainPower Host resumed: Resumed 1 VMs
+31:19:55.698691          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+31:58:24.763882 MainPower Host suspending: Paused 1 VMs
+31:58:24.827847          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+40:06:11.995740 MainPower Host resumed: Resumed 1 VMs
+40:06:26.595524          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+40:12:22.985017 dns-monitor HostDnsMonitor: updating information
+40:12:22.985137 dns-monitor HostDnsMonitor: old information
+40:12:22.985175 dns-monitor   no server entries
+40:12:22.985203 dns-monitor   no domain set
+40:12:22.985226 dns-monitor   no search string entries
+40:12:22.985250 dns-monitor HostDnsMonitor: new information
+40:12:22.985273 dns-monitor   server 1: 192.168.43.244
+40:12:22.985304 dns-monitor   no domain set
+40:12:22.985350 dns-monitor   no search string entries
+40:40:55.974895 USBPROXY usbLibGetDevices: Starting USB device enumeration
+40:40:55.980862 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&1deb5711&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+40:40:56.058657 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+40:41:12.851614 USBPROXY usbLibGetDevices: Starting USB device enumeration
+40:41:12.855544 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&1deb5711&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+40:41:12.957891 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_8087&PID_8001#5&235a0ca7&0&1#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+40:41:12.958587 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
+40:42:23.565070 dns-monitor HostDnsMonitor: updating information
+40:42:23.565175 dns-monitor HostDnsMonitor: unchanged
+40:51:37.860445 USBPROXY usbLibGetDevices: Starting USB device enumeration
+40:51:37.906141 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&1deb5711&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 4
+40:51:38.070776 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#VID_8087&PID_8001#5&235a0ca7&0&1#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+40:51:38.109250 USBPROXY usbLibGetDevices: Found 3 USB devices, 0 captured
